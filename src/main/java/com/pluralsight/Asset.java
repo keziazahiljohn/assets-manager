@@ -5,6 +5,8 @@ public class Asset {
     private String dataAcquired;
     private double originalCost;
 
+    public Asset(){}
+
     public Asset(String description, String dataAcquired, double originalCost) {
         this.description = description;
         this.dataAcquired = dataAcquired;
